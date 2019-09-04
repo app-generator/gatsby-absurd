@@ -1,7 +1,13 @@
 const path = require('path');
 
 module.exports = {
+  siteMetadata: {
+		title: 'Gatsby Absurd - Open-Source app coded in Gatsby | AppSeed',
+    description: `Open-Source Gatsby Starter`,
+		siteUrl: `https://gatsby-absurd.appseed.us`,
+  },
   plugins: [
+    'gatsby-plugin-sitemap',
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-svgr`,
     `gatsby-plugin-styled-components`,

@@ -13,15 +13,11 @@ import TwitterIcon from '@static/icons/twitter.svg';
 const SOCIAL = [
   {
     icon: GithubIcon,
-    link: 'https://github.com/ajayns/gatsby-absurd',
-  },
-  {
-    icon: InstagramIcon,
-    link: 'https://instagram.com/ajay_ns',
+    link: 'https://github.com/app-generator/gatsby-absurd',
   },
   {
     icon: TwitterIcon,
-    link: 'https://twitter.com/ajayns08',
+    link: 'https://twitter.com/webappseed',
   },
 ];
 

@@ -6,6 +6,7 @@
   "author": "Ajay NS <ajay.ns@outlook.com>",
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
+    "ftp-deploy": "^2.3.3",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-alias-imports": "^1.0.5",
@@ -14,6 +15,7 @@
     "gatsby-plugin-offline": "^2.0.16",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-sitemap": "^2.2.10",
     "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-plugin-svgr": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.8",
@@ -32,6 +34,9 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby clean && gatsby build && node deploy",
+    "deploy_gh": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "start": "gatsby clean && gatsby develop",
     "build": "gatsby build",
     "dev": "gatsby develop",
     "start": "npm run dev",

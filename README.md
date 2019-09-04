@@ -1,35 +1,41 @@
-# gatsby-absurd
+# [GatsbyJS Absurd](https://appseed.us/apps/gatsbyjs/gatsby-absurd)
 
-An absurd Gatsby starter. The collection of illustrations, [absurd.design](https://absurd.design/) by [Diana Valeanu](https://twitter.com/diana_valeanu) is a very fascinating and beautiful project with some pretty thoughtful concepts. Experimentation on how that could be put together on a site ended up as this starter.
+Open-source app built with GatsbyJS on top of HTML5Up Absurd design. 
+**Forked from [this](https://github.com/ajayns/gatsby-absurd) project.**
 
-[Live Demo](https://gatsby-absurd.netlify.com/)
+<br />
 
-## Installation
+![GatsbyJS Absurd - Gif animated intro.](https://github.com/app-generator/static/blob/master/products/gatsby-absurd-intro.gif?raw=true)
 
-Install the dependencies:
+<br />
 
-### `yarn install`
+## App Links
 
-Run the development server:
+- [GatsbyJS Absurd](https://gatsby-absurd.appseed.us) - live demo
 
-### `yarn dev`
+<br />
 
-Production build to `/public`:
+## How to use it
+- Clone this repo `git clone https://github.com/app-generator/gatsby-absurd.git`
+- change directory to `gatsby-absurd`
+- `yarn` - install modules
+- `yarn start` - start for development
+- `yarn build` - build for production
 
-### `yarn build`
+<br />
 
-Cleanup cache (often fixes misc errors when run before `yarn dev`):
+## Support
 
-### `yarn clean`
+Please access the official [Support](https://appseed.us/support) page provided by **AppSeed**
 
-## Content
+<br />
 
-Each of the sections in the site are placed in `src/sections`. Data is usually separated out into objects/arrays to be rendered in the component.
+## Resources
+ 
+ - [GatsbyJS](https://www.gatsbyjs.org/)
+ - More [GatsbyJS Apps](https://appseed.us/apps/gatsbyjs)
 
-## SEO
+<br />
 
-The component `src/components/common/SEO.js` handles all meta data and SEO content, modify the `SEO_DATA` variable to add the data automatically. For application manifest data and favicon, modify the `gatsby-plugin-manifest` configuration in `gatsby-config.js`.
-
-## Styling
-
-This project uses [styled-components]() to handle styling: `src/styles/theme.js` defines the styling base and `src/styles/GlobalStyles.js` includes basic element styles along with the CSS Reset.
+---
+[GatsbyJS Absurd](https://appseed.us/apps/gatsbyjs/gatsby-absurd) provided by **AppSeed**
