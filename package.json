@@ -34,14 +34,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby clean && gatsby build && node deploy",
+    "deploy": "gatsby build && node deploy",
     "deploy_gh": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "start": "gatsby clean && gatsby develop",
     "build": "gatsby build",
     "dev": "gatsby develop",
     "start": "npm run dev",
     "format": "prettier --write \"src/**/*.js\"",
-    "clean": "rm -rf .cache && rm -rf public"
+    "clean": "rimraf .cache public"
   },
   "devDependencies": {
     "prettier": "^1.15.2"
